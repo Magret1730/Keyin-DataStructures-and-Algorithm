@@ -1,11 +1,6 @@
 package org.example;
 
 import java.util.Scanner;
-
-//Simulate a movie theater that helps users to book and reserve seats.
-//reserve seats (if seat is taken, let them know it is taken and suggest an available seat)
-//cancel seats
-//retrieve initial seating charting
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -16,8 +11,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Allocate fixed 2D Array size for seating arrangement
-//        int[][] seatingArrangements = new int[10][10];
-        int[][] seatingArrangements = new int[3][2];
+        int[][] seatingArrangements = new int[10][10];
 
         while (true) {
             int availableSeats = 0;
