@@ -64,6 +64,20 @@ public class SingleLinkedList {
     }
 
     //EXERCISE 1: given a value, search for that element and return a boolean if the element exist or not.
+    public boolean searchNodeValue(int nodeValue) {
+        if (head == null) {
+            return false;
+        } else {
+            Node tempNode = head;
+            for (int i = 0; i < size; i++) {
+                if (tempNode.value == nodeValue) {
+                    return true;
+                }
+                tempNode = tempNode.next;
+            }
+            return false;
+        }
+    }
     //EXERCISE 2: Given a location Implement a Delete method.
 
 

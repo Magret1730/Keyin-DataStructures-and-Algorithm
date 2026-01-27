@@ -11,12 +11,11 @@ public class Main {
         singleLinkedList.insertLinkedList(2,1);
         singleLinkedList.insertLinkedList(3,2);
         singleLinkedList.insertLinkedList(4,3);
-//
+
         singleLinkedList.traverseLinkedList();
-//        LinkedList<String> tes = new LinkedList<>();
 
-
-
-
+        // Searches for a nodeValue
+        boolean isFound = singleLinkedList.searchNodeValue(9);
+        System.out.println(isFound);
     }
 }
