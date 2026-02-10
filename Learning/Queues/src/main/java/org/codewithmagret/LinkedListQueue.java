@@ -18,7 +18,7 @@ public class LinkedListQueue {
     }
     //enqueue
     public void enQueue(int value){
-        list.insertInLinkedList(value, list.size);
+        list.insertLinkedList(value, list.size);
         System.out.println("Successfully inserted "+value+" in the queue");
     }
 
@@ -33,6 +33,7 @@ public class LinkedListQueue {
         }
         return value;
     }
+
     //peek
     public int peek() {
         if (isEmpty()) {
